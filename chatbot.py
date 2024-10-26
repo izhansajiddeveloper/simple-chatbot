@@ -1,9 +1,3 @@
-# First, ensure you install the required libraries if they aren't already installed
-!pip install streamlit transformers -q
-
-# Save the code below in a Python file (e.g., `chatbot_app.py`) and run it with Streamlit using the command:
-# streamlit run chatbot_app.py
-
 import streamlit as st
 from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
 
